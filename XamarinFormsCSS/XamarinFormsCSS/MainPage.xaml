@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:XamarinFormsCSS"
+             xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+             ios:Page.UseSafeArea="True"
+             x:Class="XamarinFormsCSS.MainPage">
+    <ContentPage.Resources>
+        <StyleSheet Source="Styles/savingsstyles.css"/>
+    </ContentPage.Resources>
+    <StackLayout StyleClass="outer">
+        <Label Text="Savings Planner" StyleClass="header"/>
+        <Image Source="Images"/>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Starting Balance: $"/>
+            <Entry HorizontalOptions="EndAndExpand"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Interest Rate: %"/>
+            <Entry HorizontalOptions="EndAndExpand" />
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Monthly Deposit: $"/>
+            <Entry HorizontalOptions="EndAndExpand"/>
+        </StackLayout>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Number of Years: "/>
+            <Entry HorizontalOptions="EndAndExpand"/>
+        </StackLayout>
+        <BoxView StyleId="boxline"/>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Final Balance: $"/>
+            <Entry HorizontalOptions="EndAndExpand"/>
+        </StackLayout>
+        <Button Text="Calculate"/>
+    </StackLayout>
+    
+</ContentPage>
