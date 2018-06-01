@@ -11,7 +11,8 @@
 namespace XamarinFormsCSS {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\AppStuff\\XamarinFormsCSS\\XamarinFormsCSS\\XamarinFormsCSS\\App.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\judyi\\source\\repos\\XamarinFormsCSS\\XamarinFormsCSS\\XamarinFormsCSS\\App.x" +
+        "aml")]
     public partial class App : global::Xamarin.Forms.Application {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

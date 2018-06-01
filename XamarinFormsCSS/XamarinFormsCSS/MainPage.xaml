@@ -34,5 +34,5 @@
         </StackLayout>
         <Button Text="Calculate"/>
     </StackLayout>
-    
+
 </ContentPage>

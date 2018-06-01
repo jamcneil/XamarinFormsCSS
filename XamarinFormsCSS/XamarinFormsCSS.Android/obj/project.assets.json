@@ -263,7 +263,7 @@
           "build/MonoAndroid70/Xamarin.Android.Support.Vector.Drawable.targets": {}
         }
       },
-      "Xamarin.Forms/3.1.0.386113-nightly": {
+      "Xamarin.Forms/3.0.0.482510": {
         "type": "package",
         "dependencies": {
           "Xamarin.Android.Support.Design": "25.4.0.2",
@@ -295,7 +295,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "3.1.0.386113-nightly"
+          "Xamarin.Forms": "3.0.0.482510"
         },
         "compile": {
           "bin/placeholder/XamarinFormsCSS.dll": {}
@@ -503,10 +503,10 @@
         "xamarin.android.support.vector.drawable.nuspec"
       ]
     },
-    "Xamarin.Forms/3.1.0.386113-nightly": {
-      "sha512": "Jcby8//biyHRaVD5XHsaqQq/rUJvcD3M65Z5ogHEurtnEL5GLMKvLapN4rl7TmYUaM0F2HnXHwJBPyjcwWI3jA==",
+    "Xamarin.Forms/3.0.0.482510": {
+      "sha512": "kq209d8qVvulrY3o+nGirENZ3kaZpEN7VWRErWcW1M+ahtDgm4BUXQJ5s9hnp1SAGxQMTMhDAVI3uk5g9NV7hA==",
       "type": "package",
-      "path": "xamarin.forms/3.1.0.386113-nightly",
+      "path": "xamarin.forms/3.0.0.482510",
       "files": [
         "build/netstandard1.0/Mono.Cecil.Mdb.dll",
         "build/netstandard1.0/Mono.Cecil.Pdb.dll",
@@ -532,6 +532,8 @@
         "build/netstandard2.0/Xamarin.Forms.Xaml.dll",
         "build/netstandard2.0/Xamarin.Forms.props",
         "build/netstandard2.0/Xamarin.Forms.targets",
+        "lib/MonoAndroid10/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/MonoAndroid10/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/MonoAndroid10/FormsViewGroup.dll",
         "lib/MonoAndroid10/FormsViewGroup.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.dll",
@@ -543,10 +545,14 @@
         "lib/MonoAndroid10/Xamarin.Forms.Xaml.dll",
         "lib/MonoAndroid10/Xamarin.Forms.Xaml.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Xaml.xml",
+        "lib/Xamarin.Mac/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/Xamarin.Mac/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/Xamarin.Mac/Xamarin.Forms.Core.dll",
         "lib/Xamarin.Mac/Xamarin.Forms.Platform.dll",
         "lib/Xamarin.Mac/Xamarin.Forms.Platform.macOS.dll",
         "lib/Xamarin.Mac/Xamarin.Forms.Xaml.dll",
+        "lib/Xamarin.iOS10/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/Xamarin.iOS10/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll",
         "lib/Xamarin.iOS10/Xamarin.Forms.Core.pdb",
         "lib/Xamarin.iOS10/Xamarin.Forms.Core.xml",
@@ -608,6 +614,8 @@
         "lib/netstandard2.0/Xamarin.Forms.Xaml.dll",
         "lib/netstandard2.0/Xamarin.Forms.Xaml.pdb",
         "lib/netstandard2.0/Xamarin.Forms.Xaml.xml",
+        "lib/tizen40/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/tizen40/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/tizen40/Xamarin.Forms.Core.dll",
         "lib/tizen40/Xamarin.Forms.Core.pdb",
         "lib/tizen40/Xamarin.Forms.Core.xml",
@@ -617,6 +625,8 @@
         "lib/tizen40/Xamarin.Forms.Xaml.dll",
         "lib/tizen40/Xamarin.Forms.Xaml.pdb",
         "lib/tizen40/Xamarin.Forms.Xaml.xml",
+        "lib/uap10.0/Design/Xamarin.Forms.Core.Design.dll",
+        "lib/uap10.0/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/uap10.0/Xamarin.Forms.Core.dll",
         "lib/uap10.0/Xamarin.Forms.Core.xml",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP.dll",
@@ -631,13 +641,12 @@
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/PageControlStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/Properties/Xamarin.Forms.Platform.UAP.rd.xml",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/Resources.xbf",
-        "lib/uap10.0/Xamarin.Forms.Platform.UAP/SliderStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/TabbedPageStyle.xbf",
         "lib/uap10.0/Xamarin.Forms.Platform.UAP/Xamarin.Forms.Platform.UAP.xr.xml",
         "lib/uap10.0/Xamarin.Forms.Platform.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.3.1.0.386113-nightly.nupkg.sha512",
+        "xamarin.forms.3.0.0.482510.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
@@ -654,7 +663,7 @@
       "Xamarin.Android.Support.v7.AppCompat >= 25.4.0.2",
       "Xamarin.Android.Support.v7.CardView >= 25.4.0.2",
       "Xamarin.Android.Support.v7.MediaRouter >= 25.4.0.2",
-      "Xamarin.Forms >= 3.1.0.386113-nightly",
+      "Xamarin.Forms >= 3.0.0.482510",
       "XamarinFormsCSS >= 1.0.0"
     ]
   },
@@ -665,11 +674,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\AppStuff\\XamarinFormsCSS\\XamarinFormsCSS\\XamarinFormsCSS.Android\\XamarinFormsCSS.Android.csproj",
+      "projectUniqueName": "C:\\Users\\judyi\\source\\repos\\XamarinFormsCSS\\XamarinFormsCSS\\XamarinFormsCSS.Android\\XamarinFormsCSS.Android.csproj",
       "projectName": "XamarinFormsCSS.Android",
-      "projectPath": "C:\\AppStuff\\XamarinFormsCSS\\XamarinFormsCSS\\XamarinFormsCSS.Android\\XamarinFormsCSS.Android.csproj",
+      "projectPath": "C:\\Users\\judyi\\source\\repos\\XamarinFormsCSS\\XamarinFormsCSS\\XamarinFormsCSS.Android\\XamarinFormsCSS.Android.csproj",
       "packagesPath": "C:\\Users\\judyi\\.nuget\\packages\\",
-      "outputPath": "C:\\AppStuff\\XamarinFormsCSS\\XamarinFormsCSS\\XamarinFormsCSS.Android\\obj\\",
+      "outputPath": "C:\\Users\\judyi\\source\\repos\\XamarinFormsCSS\\XamarinFormsCSS\\XamarinFormsCSS.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -691,8 +700,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\AppStuff\\XamarinFormsCSS\\XamarinFormsCSS\\XamarinFormsCSS\\XamarinFormsCSS.csproj": {
-              "projectPath": "C:\\AppStuff\\XamarinFormsCSS\\XamarinFormsCSS\\XamarinFormsCSS\\XamarinFormsCSS.csproj"
+            "C:\\Users\\judyi\\source\\repos\\XamarinFormsCSS\\XamarinFormsCSS\\XamarinFormsCSS\\XamarinFormsCSS.csproj": {
+              "projectPath": "C:\\Users\\judyi\\source\\repos\\XamarinFormsCSS\\XamarinFormsCSS\\XamarinFormsCSS\\XamarinFormsCSS.csproj"
             }
           }
         }
@@ -723,7 +732,7 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[3.1.0.386113-nightly, )"
+            "version": "[3.0.0.482510, )"
           }
         }
       }

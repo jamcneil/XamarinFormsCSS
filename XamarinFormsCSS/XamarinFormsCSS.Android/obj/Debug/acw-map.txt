@@ -546,10 +546,6 @@ Xamarin.Forms.Platform.Android.WebViewRenderer/WebClient, Xamarin.Forms.Platform
 Xamarin.Forms.Platform.Android.WebViewRenderer+WebClient, Xamarin.Forms.Platform.Android, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null;md5b60ffeb829f638581ab2bb9b1a7f4f3f.WebViewRenderer_WebClient
 Xamarin.Forms.Platform.Android.WebViewRenderer.WebClient;md5b60ffeb829f638581ab2bb9b1a7f4f3f.WebViewRenderer_WebClient
 xamarin.forms.platform.android.WebViewRenderer_WebClient;md5b60ffeb829f638581ab2bb9b1a7f4f3f.WebViewRenderer_WebClient
-Xamarin.Forms.Platform.Android.WebViewRenderer/JavascriptResult, Xamarin.Forms.Platform.Android;md5b60ffeb829f638581ab2bb9b1a7f4f3f.WebViewRenderer_JavascriptResult
-Xamarin.Forms.Platform.Android.WebViewRenderer+JavascriptResult, Xamarin.Forms.Platform.Android, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null;md5b60ffeb829f638581ab2bb9b1a7f4f3f.WebViewRenderer_JavascriptResult
-Xamarin.Forms.Platform.Android.WebViewRenderer.JavascriptResult;md5b60ffeb829f638581ab2bb9b1a7f4f3f.WebViewRenderer_JavascriptResult
-xamarin.forms.platform.android.WebViewRenderer_JavascriptResult;md5b60ffeb829f638581ab2bb9b1a7f4f3f.WebViewRenderer_JavascriptResult
 Xamarin.Forms.Platform.Android.VisualElementRenderer`1, Xamarin.Forms.Platform.Android;md5b60ffeb829f638581ab2bb9b1a7f4f3f.VisualElementRenderer_1
 Xamarin.Forms.Platform.Android.VisualElementRenderer`1, Xamarin.Forms.Platform.Android, Version=2.0.0.0, Culture=neutral, PublicKeyToken=null;md5b60ffeb829f638581ab2bb9b1a7f4f3f.VisualElementRenderer_1
 Xamarin.Forms.Platform.Android.VisualElementRenderer`1;md5b60ffeb829f638581ab2bb9b1a7f4f3f.VisualElementRenderer_1

@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "85e3987ec331910a92175a982c21180d4c8b8648"
+    "signature": "16643cc303b5dc27a9b68fcbe87de6d304564f8b"
   },
   "compilationOptions": {},
   "targets": {
@@ -10,7 +10,7 @@
       "XamarinFormsCSS/1.0.0": {
         "dependencies": {
           "NETStandard.Library": "2.0.1",
-          "Xamarin.Forms": "3.1.0.386113-nightly"
+          "Xamarin.Forms": "3.0.0.482510"
         },
         "runtime": {
           "XamarinFormsCSS.dll": {}
@@ -22,7 +22,7 @@
           "Microsoft.NETCore.Platforms": "1.1.0"
         }
       },
-      "Xamarin.Forms/3.1.0.386113-nightly": {
+      "Xamarin.Forms/3.0.0.482510": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
           "lib/netstandard2.0/Xamarin.Forms.Platform.dll": {},
@@ -51,12 +51,12 @@
       "path": "netstandard.library/2.0.1",
       "hashPath": "netstandard.library.2.0.1.nupkg.sha512"
     },
-    "Xamarin.Forms/3.1.0.386113-nightly": {
+    "Xamarin.Forms/3.0.0.482510": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Jcby8//biyHRaVD5XHsaqQq/rUJvcD3M65Z5ogHEurtnEL5GLMKvLapN4rl7TmYUaM0F2HnXHwJBPyjcwWI3jA==",
-      "path": "xamarin.forms/3.1.0.386113-nightly",
-      "hashPath": "xamarin.forms.3.1.0.386113-nightly.nupkg.sha512"
+      "sha512": "sha512-kq209d8qVvulrY3o+nGirENZ3kaZpEN7VWRErWcW1M+ahtDgm4BUXQJ5s9hnp1SAGxQMTMhDAVI3uk5g9NV7hA==",
+      "path": "xamarin.forms/3.0.0.482510",
+      "hashPath": "xamarin.forms.3.0.0.482510.nupkg.sha512"
     }
   }
 }

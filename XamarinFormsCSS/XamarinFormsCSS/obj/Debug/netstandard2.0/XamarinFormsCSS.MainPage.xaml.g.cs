@@ -11,7 +11,8 @@
 namespace XamarinFormsCSS {
     
     
-    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\AppStuff\\XamarinFormsCSS\\XamarinFormsCSS\\XamarinFormsCSS\\MainPage.xaml")]
+    [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("C:\\Users\\judyi\\source\\repos\\XamarinFormsCSS\\XamarinFormsCSS\\XamarinFormsCSS\\MainP" +
+        "age.xaml")]
     public partial class MainPage : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]

@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{6637D8E1-BA57-4EA9-8D5B-BDDF5AF2FC8F}</ProjectGuid>
+    <ProjectGuid>{15E9005A-D6E0-4B8A-8DDF-BF2DF9DA4E1F}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <RootNamespace>XamarinFormsCSS.Droid</RootNamespace>
@@ -47,7 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="3.1.0.386113-nightly" />
+    <PackageReference Include="Xamarin.Forms" Version="3.0.0.482510" />
     <PackageReference Include="Xamarin.Android.Support.Design" Version="25.4.0.2" />
     <PackageReference Include="Xamarin.Android.Support.v7.AppCompat" Version="25.4.0.2" />
     <PackageReference Include="Xamarin.Android.Support.v4" Version="25.4.0.2" />
@@ -81,7 +81,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\XamarinFormsCSS\XamarinFormsCSS.csproj">
-      <Project>{27AC853E-8B53-41BC-A32C-29B1ED1F5D11}</Project>
+      <Project>{146295EF-8DA9-4466-94FC-274DB49ED3E9}</Project>
       <Name>XamarinFormsCSS</Name>
     </ProjectReference>
   </ItemGroup>

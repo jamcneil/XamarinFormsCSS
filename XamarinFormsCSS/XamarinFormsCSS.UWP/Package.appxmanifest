@@ -7,15 +7,15 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="ec0cc741-fd3e-485c-81be-68815c480690"
-    Publisher="CN=Pierce Boggan"
+    Name="75a2d59e-1d99-436f-88fb-e7dbbbb87ee8"
+    Publisher="CN=6279a38f-f505-4b06-86be-bc65e74e84a5"
     Version="1.0.0.0" />
 
   <mp:PhoneIdentity PhoneProductId="ec0cc741-fd3e-485c-81be-68815c480690" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>XamarinFormsCSS.UWP</DisplayName>
-    <PublisherDisplayName>Pierce Boggan</PublisherDisplayName>
+    <PublisherDisplayName>6279a38f-f505-4b06-86be-bc65e74e84a5</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 

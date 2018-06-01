@@ -5,11 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Styles\savingsstyles.css" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="3.1.0.386113-nightly" />
+    <PackageReference Include="Xamarin.Forms" Version="3.0.0.482510" />
   </ItemGroup>
 
   <ItemGroup>
@@ -19,5 +15,9 @@
     <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="MainPage.xaml.cs">
       <DependentUpon>*.xaml</DependentUpon>
     </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Styles\" />
   </ItemGroup>
 </Project>
